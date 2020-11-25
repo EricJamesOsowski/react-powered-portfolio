@@ -1,3 +1,8 @@
+.navbar {
+    position: top;
+    width: 100%;
+  }
+  
   .miami-nights{
   margin-top: -15px;
   color: #0dffdd;
@@ -8,6 +13,7 @@
     font: lucida;
     font-weight: bolder;
     color: white;
+
   }
   
   .saxophone-solo-in-an-empty-street-at-night-under-a-full-moon{
@@ -97,8 +103,10 @@
     bottom: 0px;
     width: 100%;
     height: 40px;
-    background-color: darkgrey;
+    background-color: rgba(50, 50, 50, 0.77) !important;
+    color: fuchsia;
     flex-shrink: 0;
+    position: fixed;
   }
   
   .container {
@@ -133,25 +141,23 @@
   .portfolio-item {
     min-width: 305px;
     height: 350px;
-    background-color: rgb(80, 80, 80);
+    background-color: #505050;
+    margin-bottom: 30px;
     color: #ff83ff;
     border-radius: 10px;
     display: block;
     -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
     -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
     box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
-    margin: 20px 6px 10px 6px;
-    background-color: rgba(80, 80, 80, 0.98);
-
   }
   
   .portfolio-picture {
     max-width: 325px;
     display: block;
     margin: auto;
-    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.81);
-    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.681);
-    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
     width: 100%;
   }
   
@@ -163,7 +169,7 @@
   
   .heading-underline {
     border-bottom-style: solid;
-    border-bottom-color: rgb(216, 0, 216, .87);
+    border-bottom-color: rgb(216, 0, 216, .80);
     border-bottom-width: 5px;
   }
   
@@ -181,6 +187,7 @@
   
   .footer-text {
      margin: auto;
+    color: #fe78fe;
   }
   
   a {
@@ -189,10 +196,6 @@
   
   #footer-row {
     height: 40px;
-  }
-  
-  footer {
-  position: fixed;
   }
   
   .github-link {
